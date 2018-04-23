@@ -1,15 +1,20 @@
 {
   "name": "@tegan/create-modular-scale",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create basic modular scale functions",
   "main": "dist/create-modular-scale.cjs.js",
   "module": "dist/create-modular-scale.esm.js",
   "browser": "dist/create-modular-scale.umd.js",
-  "files": ["dist/*.js"],
+  "files": [
+    "dist/*.js"
+  ],
   "author": "Tegan Churchill <churchill.tegan@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/rawrmonstar/create-modular-scale",
-  "keywords": ["modular scale", "typography"],
+  "keywords": [
+    "modular scale",
+    "typography"
+  ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
