@@ -9,11 +9,13 @@
   "author": "Tegan Churchill <churchill.tegan@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/rawrmonstar/create-modular-scale",
+  "keywords": ["modular scale", "typography"],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "tape tests/**/*.js",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "preversion": "npm test"
   },
   "devDependencies": {
     "rollup": "^0.58.1",
